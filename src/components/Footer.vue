@@ -4,3 +4,7 @@
         <div>Footer</div>
     </main>
 </template>
+
+<style>
+
+</style>

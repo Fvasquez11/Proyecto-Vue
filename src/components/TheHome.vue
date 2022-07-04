@@ -1,12 +1,17 @@
 <script >
+
 </script>
 
 <template>  
   <main>
-    <h1>Home</h1>
+    <div class="theHomeContainer">
+      <h1>Home</h1>
+    </div>
   </main>
 </template>
 
 <style>
-
+.theHomeContainer{
+  padding: 2%;
+}
 </style>
