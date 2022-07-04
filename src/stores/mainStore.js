@@ -3,17 +3,16 @@ import { defineStore } from 'pinia'
 export const useMainStore = defineStore('useMainStore', {
   state: () => {
     return {
-      login: true,
+      loginStatus: true,
     }
   },
 
   actions: {
     login(){
-      login = true;
+      this.loginStatus = true;
     },
     signUp(){
-      login = false;  
-      console.log("signup")
+      this.loginStatus = false;  
     }
   }
 })
