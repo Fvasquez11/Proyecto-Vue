@@ -30,6 +30,7 @@ export default {
 <style>
 .footerContainer {
   margin-top: 10%;
+  background-image: url(https://image.shutterstock.com/image-vector/blue-polygonal-banner-background-dashed-260nw-1654085914.jpg); 
 }
 .footerContent {
   align-items: center;

@@ -7,7 +7,7 @@ import SignUp from "@/components/SignUp.vue";
 <template>
   <main>
     <div class="theHomeContainer">
-      <h1>Home</h1>
+      <h1></h1>
       <div class="login">
       <b-card class="loginCard">
         <div id="my-accordion" class="accordion" role="tablist">
