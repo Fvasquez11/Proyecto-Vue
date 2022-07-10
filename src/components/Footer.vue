@@ -1,14 +1,45 @@
+<script>
+export default {
+  data() {
+    return {
+      breadcrumbItems: [
+        { text: "Home", href: "/" },
+        { text: "About", href: "/about" },
+        { text: "", href: "" },
+      ],
+    }
+  }
+}
+</script>
+
 <template>
-    <main>
-        <div class="footerContainer">
-        <hr>
-        <div>Footer</div>
-        </div>
-    </main>
+  <main>
+    <div class="footerContainer">
+      <hr />
+      <div class="footerContent">
+        <div id="logo"><b-card no-body><b-img src="https://intranet.ufro.cl/imagenes/ufro/1-1.png" fluid alt="Logo"></b-img></b-card></div>
+        <div>© 2022 Bryan Alegria, Paz Muñoz, Fernando Vásquez</div>
+        <div>
+          <b-breadcrumb :items="breadcrumbItems"></b-breadcrumb>
+          </div>
+      </div>
+    </div>
+  </main>
 </template>
 
 <style>
 .footerContainer {
-    margin-top: 10%;
+  margin-top: 10%;
+}
+.footerContent {
+  align-items: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#logo {
+    width: 20rem;
 }
 </style>
