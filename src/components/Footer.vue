@@ -35,7 +35,7 @@ export default {
 .footerContent {
   align-items: center;
   margin-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

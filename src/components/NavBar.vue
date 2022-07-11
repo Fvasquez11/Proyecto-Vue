@@ -7,14 +7,14 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="navContainer">
        <div class="title">
         <div id="avatar">
-          <b-avatar src="https://document-export.canva.com/IKTCI/DAFF_WIKTCI/5/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220709%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220709T114902Z&X-Amz-Expires=72359&X-Amz-Signature=4eed24023c6a652cc2fb1d4ee50751ac8878e437ca0de889f6d07041471dbcd8&X-Amz-SignedHeaders=host&response-expires=Sun%2C%2010%20Jul%202022%2007%3A55%3A01%20GMT" size= "5rem"></b-avatar>
+          <b-avatar src='https://cdn-icons-png.flaticon.com/512/610/610128.png' size= "5rem"></b-avatar>
         </div>
         <h1>ProGraph</h1>
         </div>
       <nav>
         <div id="buttons">
           <b-button variant="warning"><RouterLink to="/">Home</RouterLink></b-button>
-          <b-button variant="danger"><RouterLink to="/about">About</RouterLink></b-button>
+          <b-button variant="warning"><RouterLink to="/about">About</RouterLink></b-button>
           </div>
       </nav>
     </div>
@@ -42,10 +42,10 @@ h1{
   justify-content:center;
   gap:10px;
 }
-.routerlink {
+.RouterLink {
   color: white;
 }
-.routerlink:hover {
+.RouterLink:hover {
   color: black;
 }
 
